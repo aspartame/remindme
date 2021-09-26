@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical" >
+	
+<LinearLayout
+	android:id="@+id/custom_interval_view"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:paddingLeft="10dip"
+	android:paddingRight="10dip"
+	android:paddingTop="10dip"
+	android:paddingBottom="10dip"
+	>
+<CheckBox
+	android:id="@+id/monday"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textSize="20dip"
+	android:text="\tMonday" />
+<CheckBox
+	android:id="@+id/tuesday"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textSize="20dip"
+	android:text="\tTuesday" />
+<CheckBox
+	android:id="@+id/wednesday"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textSize="20dip"
+	android:text="\tWednesday" />
+<CheckBox
+	android:id="@+id/thursday"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textSize="20dip"
+	android:text="\tThursday" />
+<CheckBox
+	android:id="@+id/friday"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textSize="20dip"
+	android:text="\tFriday" />
+<CheckBox
+	android:id="@+id/saturday"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textSize="20dip"
+	android:text="\tSaturday" />
+<CheckBox
+	android:id="@+id/sunday"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textSize="20dip"
+	android:text="\tSunday" />
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+<LinearLayout
+	android:id="@+id/help_layout"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="#0000"
+	android:paddingLeft="10dip"
+	android:paddingRight="10dip"
+	android:paddingTop="10dip"
+	android:paddingBottom="10dip"
+	>
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Press 'New Reminder' to add a one-time reminder, or long-press to add a periodic reminder.
+\n\nTo edit or delete a pending reminder, click on it in the 'pending reminders' view.
+\nWhen a notification is received, you acknowledge it by selecting the 'RemindMe'-notification that appears in the status bar. If a repeat interval has been set in settings, notifications for the reminder will continue to be sent (according to the repeat interval) until it is acknowledged.
+\n\nTo customize notifications, select Menu -> Settings.
+\n\nFor further assistance, please send an email to contact@shipit.se." />
+</LinearLayout>
+</ScrollView>

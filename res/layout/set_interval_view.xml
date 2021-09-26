@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/new_event_view"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical" >
+<LinearLayout
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:paddingLeft="10dip"
+   android:paddingRight="10dip"
+   >
+
+<RadioGroup
+	android:id="@+id/set_interval_radiogroup"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical" >
+	
+	// DAILY
+	<RadioButton
+		android:id="@+id/set_interval_option_daily"
+		android:checked="false"
+		android:textSize="20dip"
+		android:text="Daily" />
+		
+	// WEEKLY
+	<RadioButton
+		android:id="@+id/set_interval_option_weekly"
+		android:checked="false"
+		android:textSize="20dip"
+		android:text="Weekly" />
+	
+	// MONTHLY
+	<RadioButton
+		android:id="@+id/set_interval_option_monthly"
+		android:checked="false"
+		android:textSize="20dip"
+		android:text="Monthly" />
+		
+	// Specific weekdays
+	<RadioButton
+		android:id="@+id/set_interval_option_weekdays"
+		android:checked="false"
+		android:textSize="20dip"
+		android:text="Specific weekdays" />
+		
+	// CUSTOM
+	<RadioButton
+		android:id="@+id/set_interval_option_custom"
+		android:checked="false"
+		android:textSize="20dip"
+		android:text="Custom" />
+</RadioGroup>
+</LinearLayout>
+</ScrollView>

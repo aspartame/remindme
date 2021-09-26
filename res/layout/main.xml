@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+// New alert button
+<LinearLayout
+	android:id="@+id/create_new_alert_view"
+	android:background="@drawable/flash_on_click"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center"
+	android:paddingTop="20dip"
+	android:paddingBottom="15dip"
+	>
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:paddingRight="15dip"
+		android:src="@drawable/new_alert_48" />
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:textSize="25dip"
+		android:text="@string/new_reminder_label" />
+</LinearLayout>
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="1dip"
+	android:background="#aaa" />
+
+//Display active alerts
+<ScrollView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+<LinearLayout
+	android:id="@+id/active_alerts_layout"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="10dip"
+	android:paddingLeft="10dip"
+	android:paddingRight="10dip"
+	>
+	<TextView
+		android:id="@+id/active_alerts_label_id"
+		android:textSize="20dip"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dip"
+		android:layout_marginBottom="10dip"
+		android:text="@string/active_alerts_label" />
+	
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, quickAlert!</string>
+    <string name="app_name">RemindMe</string>
+    <string name="new_reminder_label">New Reminder</string>
+    <string name="active_alerts_label">Pending reminders:</string>
+    <string name="new_single_reminder_label">Create new reminder</string>
+    <string name="new_periodic_reminder_label">Create new periodic reminder</string>
+    <string name="description_label">Description (optional)</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+    <string name="settings_time">Time format</string>
+    <string name="settings_am_pm">12-hour clock</string>
+    <string name="settings_military">24-hour clock</string>
+    <string name="settings_sound">Notification sound</string>
+    <string name="choose_sound">Choose notification sound</string>
+    <string name="preferences_clock_format">clock_format</string>
+    <string name="preferences_clock_title">Use 24-hour clock</string>
+    <string name="preferences_clock_summary">Display the time as hh:mm</string>
+    <string name="preferences_vibration">vibration</string>
+    <string name="preferences_vibration_title">Vibrate</string>
+    <string name="preferences_vibration_summary">Allow vibration on notification</string>
+    <string name="preferences_notification_sound">notification_sound</string>
+    <string name="preferences_choose_sound">Notification sound</string>
+    <string name="preferences_sound_summary">Select the sound to use for notifications</string>
+    <string name="preferences_repeat">repeat</string>
+    <string name="preferences_repeat_title">Repeat interval</string>
+    <string name="preferences_repeat_summary">Set the interval for repeating notifications of unacknowledged reminders</string>
+</resources>

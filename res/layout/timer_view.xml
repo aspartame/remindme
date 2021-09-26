@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/timer_view"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:paddingLeft="10dip"
+	android:paddingRight="10dip"
+	android:paddingTop="10dip"
+	android:paddingBottom="10dip"
+	>
+
+<LinearLayout
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	>
+	<TextView
+		android:id="@+id/timer_hour_label"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="22dip"
+		android:text="0" />
+	<TextView
+		android:id="@+id/timer_hour_label_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingLeft="3dip"
+		android:progress="0"
+		android:textSize="22dip"
+		android:text="hours" />
+</LinearLayout>
+	<SeekBar
+		android:id="@+id/timer_hour_seekbar"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:focusable="true"
+		android:progress="0"
+		android:max="20" />
+		
+<LinearLayout
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	>
+	<TextView
+		android:id="@+id/timer_minute_label"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingTop="20dip"
+		android:textSize="22dip"
+		android:text="0" />
+	<TextView
+		android:id="@+id/timer_minute_label_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingLeft="3dip"
+		android:textSize="22dip"
+		android:text="minutes" />
+</LinearLayout>
+	<SeekBar
+		android:id="@+id/timer_minute_seekbar"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:progress="0"
+		android:focusable="true"
+		android:max="59" />
+
+</LinearLayout>
+</ScrollView>

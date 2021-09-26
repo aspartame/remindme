@@ -1,0 +1,26 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<CheckBoxPreference 
+		android:key="@string/preferences_clock_format"
+		android:title="@string/preferences_clock_title"
+		android:summary="@string/preferences_clock_summary" />
+	<CheckBoxPreference 
+		android:key="@string/preferences_vibration"
+		android:title="@string/preferences_vibration_title"
+		android:summary="@string/preferences_vibration_summary"
+		android:defaultValue="true" />
+	<RingtonePreference 
+		android:key="@string/preferences_notification_sound"
+		android:title="@string/preferences_choose_sound"
+		android:summary="@string/preferences_sound_summary"
+		android:ringtoneType="notification"
+		android:defaultValue="default"
+		android:showDefault="true"
+		android:showSilent="true" />
+	<ListPreference
+		android:key="@string/preferences_repeat"
+		android:title="@string/preferences_repeat_title"
+		android:summary="@string/preferences_repeat_summary"
+		android:defaultValue="0"
+		android:entries="@array/repeat_entries"
+		android:entryValues="@array/repeat_values" />
+</PreferenceScreen>
